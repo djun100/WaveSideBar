@@ -1,3 +1,11 @@
+使用方式：
+  repositories {
+        // ...
+        maven { url "https://jitpack.io" }
+    }
+
+compile 'com.github.djun100:WaveSideBar:latest'
+
 WaveSideBar project
 ===================
 

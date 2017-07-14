@@ -2,7 +2,7 @@
 <resources>
     <array name="waveSideBarLetters">
         <item>\u0023</item>
-        <item>\u2606</item>
+        <!--<item>\u2606</item>-->
         <item>A</item>
         <item>B</item>
         <item>C</item>
