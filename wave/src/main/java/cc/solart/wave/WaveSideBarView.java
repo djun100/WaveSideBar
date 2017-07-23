@@ -143,7 +143,7 @@ public class WaveSideBarView extends View {
             case MotionEvent.ACTION_DOWN:
 
 //                if (x < mWidth - 2 * mRadius) {
-                if (x < mWidth - mRadius/2) {//不做选字母处理，防止误触，设为触摸控件实体右半部分有效
+                if (x < mWidth - mRadius) {//不做选字母处理，防止误触，设为触摸控件实体右半部分有效
                     Log.w("tag","touch x:"+x);
                     return false;
                 }
@@ -183,7 +183,7 @@ public class WaveSideBarView extends View {
         mWidth = getMeasuredWidth();
         mItemHeight = (mHeight - mPadding) / mLetters.size();
 //        mPosX = mWidth - 1.6f * mTextSize;
-        mPosX = mWidth - 1.1f * mTextSize;
+        mPosX = mWidth - 1.6f * mTextSize;
     }
 
     @Override
